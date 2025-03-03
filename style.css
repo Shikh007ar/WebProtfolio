@@ -757,7 +757,7 @@ max-height: 60px; */
     width: 7%;
     z-index: 10;
     position: fixed;
-    bottom: 100px;
+    bottom: 200px;
     right: auto;
     animation: popEffect 1.5s infinite ease-in-out;
 }
