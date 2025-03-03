@@ -1,3 +1,16 @@
+@keyframes popEffect {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+        /* Moves it up slightly */
+    }
+}
+
 body {
     overflow-x: hidden;
     font-family: "Raleway", serif !important;
@@ -65,11 +78,13 @@ a.top:hover {
         height: 90px;
         width: 100%;
     }
+
     a.top {
         display: block;
         margin-top: 10px;
         font-size: 10px;
     }
+
     a.top:hover {
         font-size: 13px;
     }
@@ -227,6 +242,7 @@ a.top:hover {
     .Line1 {
         font-size: 8vw;
     }
+
     .Line2 {
         font-size: 8vw;
     }
@@ -431,6 +447,7 @@ h2 {
         font-size: 15px;
         margin-top: 25px;
     }
+
     #Stop:hover {
         font-size: 18px;
     }
@@ -443,9 +460,11 @@ max-height: 60px; */
         max-width: 250px;
         height: auto;
     }
+
     .college {
         font-size: 25px;
     }
+
     .stranger {
         font-size: 10px;
     }
@@ -456,6 +475,7 @@ max-height: 60px; */
         font-size: 38px;
         width: 400px;
     }
+
     .Lbutton {
         font-size: 15px;
         padding: 2.5px 5px;
@@ -495,6 +515,7 @@ max-height: 60px; */
 }
 
 @media(max-width: 1000px) {
+
     /* .project-card-view {
         height: 80% !important;
     } */
@@ -648,6 +669,7 @@ max-height: 60px; */
         padding-right: 15px !important;
         padding-left: 15px !important;
     }
+
     .resume-right {
         padding-right: 15px !important;
         padding-left: 15px !important;
@@ -751,6 +773,7 @@ max-height: 60px; */
     right: 40px;
     z-index: 10;
     color: var(--light-slate);
+    animation: popEffect 1.5s infinite ease-in-out;
 }
 
 .contactDiv22 {
@@ -778,12 +801,14 @@ max-height: 60px; */
     text-decoration: none;
     font-size: 12.3px;
     color: #ff5200;
+    animation: none;
 }
 
 @media(max-width: 650px) {
     .contactDiv1 {
         display: none;
     }
+
     .contactDiv2 {
         display: none;
     }
