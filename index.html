@@ -26,26 +26,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-    <script>
-        const techIcons = document.querySelectorAll('.tech-icons');
 
-        techIcons.forEach(icon => {
-            const actualLogo = icon.querySelector('.actualLogo');
-            const iconName = icon.querySelector('.icon-name');
-
-
-            icon.addEventListener('mouseenter', () => {
-                actualLogo.style.opacity = '0';
-                iconName.style.opacity = '1';
-            });
-
-
-            icon.addEventListener('mouseleave', () => {
-                actualLogo.style.opacity = '1';
-                iconName.style.opacity = '0';
-            });
-        });
-    </script>
 
 </head>
 
@@ -643,6 +624,20 @@
                 scroll = $(document).scrollTop();
             })
         })
+
+        const techIcons = document.querySelectorAll('.tech-icons');
+        techIcons.forEach(icon => {
+            const actualLogo = icon.querySelector('.actualLogo');
+            const iconName = icon.querySelector('.icon-name');
+            icon.addEventListener('mouseenter', () => {
+                actualLogo.style.opacity = '0';
+                iconName.style.opacity = '1';
+            });
+            icon.addEventListener('mouseleave', () => {
+                actualLogo.style.opacity = '1';
+                iconName.style.opacity = '0';
+            });
+        });
     </script>
 
 </body>
