@@ -202,6 +202,18 @@ a.top:hover {
     }
 }
 
+.torch {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle at center,
+            rgba(255, 255, 255, 0.2) 0%,
+            rgba(255, 255, 255, 0) 70%);
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
+
 .navbar {
     padding: 0 0;
 }
@@ -747,6 +759,7 @@ max-height: 60px; */
     display: inline-block;
     font-weight: 600;
     color: #020c1b;
+    border-radius: 4px;
     margin-bottom: 10px;
     font-family: "Raleway", serif !important;
 }

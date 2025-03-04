@@ -32,7 +32,7 @@
 
 <body style="position: relative; width: 100%; margin :0 0">
 
-
+    <div class="torch" id="torch"></div>
     <header class="nav-area">
         <nav id="header" class="navbar navbar-expand-lg navbar-dark vannsh">
             <a class="VNN" href="#">
@@ -667,6 +667,12 @@
                 actualLogo.style.opacity = '1';
                 iconName.style.opacity = '0';
             });
+        });
+        const torch = document.getElementById("torch");
+
+        document.addEventListener("mousemove", (e) => {
+            torch.style.left = e.clientX + "px";
+            torch.style.top = e.clientY + "px";
         });
     </script>
 
