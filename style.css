@@ -37,6 +37,150 @@ html {
     text-decoration: none;
 }
 
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-container {
+    background-color: #020c1b;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo Container */
+.logo-container-main {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Outer Diamond (Rotated Square) */
+.outer-diamond {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    /* White outline */
+    transform: rotate(45deg);
+}
+
+/* Inner Diamond (Smaller Rotated Square) */
+.inner-diamond {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border: 2px solid #fff;
+    /* White outline */
+    transform: rotate(45deg);
+}
+
+/* Center Square */
+.center-square {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    background-color: #020c1b;
+    /* Black background for "SC" */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+/* Logo Text (SC) */
+.logo-text {
+    font-family: 'Arial', sans-serif;
+    /* Use a clean, sans-serif font */
+    font-size: 60px;
+    /* Adjust size as needed */
+    font-weight: bold;
+    color: #fff;
+    /* White text */
+    text-align: center;
+    line-height: 1;
+    letter-spacing: -5px;
+    /* Adjust for tighter spacing */
+}
+
+/* Diagonal Lines (Creating the geometric pattern) */
+.diagonal-line {
+    position: absolute;
+    border: 2px solid #fff;
+    /* White outline */
+    transform-origin: 50% 50%;
+}
+
+.top-left {
+    width: 70%;
+    height: 0;
+    top: 15%;
+    left: 15%;
+    transform: rotate(-45deg);
+}
+
+.top-right {
+    width: 70%;
+    height: 0;
+    top: 15%;
+    right: 15%;
+    transform: rotate(45deg);
+}
+
+.bottom-left {
+    width: 70%;
+    height: 0;
+    bottom: 15%;
+    left: 15%;
+    transform: rotate(45deg);
+}
+
+.bottom-right {
+    width: 70%;
+    height: 0;
+    bottom: 15%;
+    right: 15%;
+    transform: rotate(-45deg);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .logo-container {
+        width: 150px;
+        height: 150px;
+    }
+
+    .logo-text {
+        font-size: 45px;
+    }
+
+    .diagonal-line {
+        width: 60%;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-container {
+        width: 100px;
+        height: 100px;
+    }
+
+    .logo-text {
+        font-size: 30px;
+    }
+
+    .diagonal-line {
+        width: 50%;
+    }
+}
+
 #firstbar {
     background-color: #f9813a;
     height: 50px;
