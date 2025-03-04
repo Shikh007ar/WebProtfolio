@@ -733,13 +733,14 @@ max-height: 60px; */
     font-family: "Raleway", serif !important;
 }
 
-.resume .resume-item .#5eead4 {
+.resume .resume-item {
     line-height: 18px;
     font-size: 0.9em;
     background: #5eead4;
     padding: 8px 15px;
     display: inline-block;
     font-weight: 600;
+    color: #020c1b;
     font-family: "Raleway", serif !important;
     margin-bottom: 10px;
 }
@@ -974,7 +975,6 @@ max-height: 60px; */
 
 #rotate {
     display: inline-block;
-    *display: inline;
     /* Used to get IE 6 & 7 to behave */
     zoom: 1;
     /* Used to get IE 6 & 7 to behave */
