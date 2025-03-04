@@ -23,7 +23,7 @@ html {
 
 .VN {
     font-family: "Raleway", serif !important;
-    color: #7DF9FF;
+    color: #5eead4;
     padding-left: 20px;
     font-size: 50px;
     padding-right: 20px;
@@ -64,7 +64,7 @@ html {
     position: absolute;
     width: 95%;
     height: 95%;
-    border: 2px solid #7DF9FF;
+    border: 2px solid #5eead4;
     transform: rotate(45deg);
 }
 
@@ -82,7 +82,7 @@ html {
 .logo-text {
     font-family: 'Arial', sans-serif;
     font-size: 28px;
-    color: #7DF9FF;
+    color: #5eead4;
     text-align: center;
     line-height: 1;
     letter-spacing: -3px;
@@ -90,7 +90,7 @@ html {
 
 .diagonal-line {
     position: absolute;
-    border: 2px solid #7DF9FF;
+    border: 2px solid #5eead4;
     transform-origin: 50% 50%;
 }
 
@@ -261,7 +261,7 @@ a.top:hover {
 }
 
 .color {
-    color: #7DF9FF;
+    color: #5eead4;
     font-size: 15px;
 }
 
@@ -280,7 +280,7 @@ a.top:hover {
 #Stop:hover {
     /* font-size: 17.5px; */
     /* font-weight: bold; */
-    color: #7DF9FF;
+    color: #5eead4;
 }
 
 #imagediv {
@@ -334,7 +334,7 @@ a.top:hover {
     font-family: "Raleway", serif !important;
     font-weight: 700;
     text-align: left;
-    color: #7DF9FF;
+    color: #5eead4;
 }
 
 
@@ -417,8 +417,8 @@ h2 {
 
 .Tbutton {
     background-color: transparent;
-    border: 1px solid #7DF9FF;
-    color: #7DF9FF;
+    border: 1px solid #5eead4;
+    color: #5eead4;
     transition-duration: 1s;
     /* line-height: 1; */
     text-decoration: none;
@@ -436,8 +436,8 @@ h2 {
     background-color: transparent;
     /* border-radius: 15px; */
     padding: 1.25rem 1.75rem;
-    border: 1px solid #7DF9FF;
-    color: #7DF9FF;
+    border: 1px solid #5eead4;
+    color: #5eead4;
     font-size: 15px;
     transition-duration: 1s;
     line-height: 1;
@@ -450,7 +450,7 @@ h2 {
 
 .Abutton:hover {
     cursor: pointer;
-    background-color: #7DF9FF;
+    background-color: #5eead4;
     color: #020c1b;
     /*   z-index: 10;
     /* font-weight: bold; */
@@ -484,7 +484,7 @@ h2 {
 .timeline-label h4 {
     margin-top: 0;
     font-size: 30px;
-    color: #7DF9FF;
+    color: #5eead4;
     padding: 16px 0px;
     font-weight: 700;
 }
@@ -507,7 +507,7 @@ h2 {
 }
 
 .text-timeline {
-    background: #7DF9FF;
+    background: #5eead4;
     color: #fff;
     font-size: 18px;
     height: 40px;
@@ -521,7 +521,7 @@ h2 {
     height: 40px;
     line-height: 30px;
     box-sizing: border-box;
-    border: 4px solid #7DF9FF;
+    border: 4px solid #5eead4;
     border-left: none;
     -webkit-transition: 600ms -webkit-transform ease-in-out;
     transition: 600ms -webkit-transform ease-in-out;
@@ -531,7 +531,7 @@ h2 {
     transform: rotateY(90deg);
     -webkit-transform-origin: left;
     transform-origin: left;
-    color: #7DF9FF;
+    color: #5eead4;
     background: #fff;
     text-align: center;
 }
@@ -620,7 +620,7 @@ max-height: 60px; */
 }
 
 .project-card-view {
-    box-shadow: 0 4px 5px 3px #7DF9FF !important;
+    box-shadow: 0 4px 5px 3px #5eead4 !important;
     color: white !important;
     background-color: transparent !important;
     opacity: 0.9 !important;
@@ -631,7 +631,7 @@ max-height: 60px; */
 .project-card-view:hover {
     transform: scale(1.02) !important;
     overflow: hidden !important;
-    box-shadow: 0 4px 4px 5px #7DF9FF !important;
+    box-shadow: 0 4px 4px 5px #5eead4 !important;
 }
 
 @media(max-width: 1000px) {
@@ -663,12 +663,12 @@ max-height: 60px; */
 .tech-icons {
     font-size: 4.5em !important;
     opacity: 0.93 !important;
-    border: 1.7px solid #7DF9FF !important;
+    border: 1.7px solid #5eead4 !important;
     vertical-align: middle !important;
     text-align: center !important;
     border-radius: 5px !important;
     display: flex;
-    box-shadow: 1px solid #7DF9FF;
+    box-shadow: 1px solid #5eead4;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
     color: white;
@@ -692,7 +692,7 @@ max-height: 60px; */
 
 .tech-icons:hover {
     transform: scale(1.05) !important;
-    border: 2.2px solid #7DF9FF !important;
+    border: 2.2px solid #5eead4 !important;
     color: #fff;
 }
 
@@ -709,7 +709,7 @@ max-height: 60px; */
 .tech-icons:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid #7DF9FF !important;
+    border: 2.2px solid #5eead4 !important;
     color: #fff;
 }
 
@@ -733,10 +733,10 @@ max-height: 60px; */
     font-family: "Raleway", serif !important;
 }
 
-.resume .resume-item .#7DF9FF {
+.resume .resume-item .#5eead4 {
     line-height: 18px;
     font-size: 0.9em;
-    background: #7DF9FF;
+    background: #5eead4;
     padding: 8px 15px;
     display: inline-block;
     font-weight: 600;
@@ -747,7 +747,7 @@ max-height: 60px; */
 .resume .resume-item {
     padding: 0 0 10px 25px;
     margin-top: -2px;
-    border-left: 2px solid #7DF9FF;
+    border-left: 2px solid #5eead4;
     position: relative;
     font-family: "Raleway", serif !important;
 }
@@ -755,7 +755,7 @@ max-height: 60px; */
 .resume .resume-item .resume-title {
     line-height: 18px;
     font-size: 0.9em;
-    background: #7DF9FF;
+    background: #5eead4;
     padding: 8px 15px;
     display: inline-block;
     font-weight: 600;
@@ -788,7 +788,7 @@ max-height: 60px; */
     left: -9px;
     top: 0;
     background: #fff;
-    border: 2px solid #7DF9FF;
+    border: 2px solid #5eead4;
 }
 
 .resume {
@@ -860,7 +860,7 @@ max-height: 60px; */
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    /* background: #7DF9FF; */
+    /* background: #5eead4; */
     transition: 0.5s;
     transform: scale(0.9);
     z-index: -1;
@@ -868,13 +868,13 @@ max-height: 60px; */
 
 .home-social-icons:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #7DF9FF;
+    box-shadow: 0 0 15px #5eead4;
 }
 
 .home-social-icons:hover {
-    color: #7DF9FF;
-    box-shadow: 0 0 5px #7DF9FF;
-    text-shadow: 0 0 2px #7DF9FF;
+    color: #5eead4;
+    box-shadow: 0 0 5px #5eead4;
+    text-shadow: 0 0 2px #5eead4;
 }
 
 .social-icons {
@@ -884,7 +884,7 @@ max-height: 60px; */
 }
 
 .icon-colour {
-    color: #7DF9FF !important;
+    color: #5eead4 !important;
 }
 
 .faab {
@@ -942,7 +942,7 @@ max-height: 60px; */
 .contactDiv1:hover {
     text-decoration: none;
     font-size: 12.3px;
-    color: #7DF9FF;
+    color: #5eead4;
     animation: none;
 }
 
@@ -997,7 +997,7 @@ max-height: 60px; */
 }
 
 .contactIcon:hover {
-    color: #7DF9FF;
+    color: #5eead4;
 }
 
 #rotate {
