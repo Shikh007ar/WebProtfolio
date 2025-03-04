@@ -128,13 +128,14 @@ html {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .logo-container {
-        width: 150px;
-        height: 150px;
+    .logo-container-main {
+        width: 30px;
+        height: 30px;
     }
 
     .logo-text {
-        font-size: 45px;
+        font-size: 16px;
+        letter-spacing: -2px;
     }
 
     .diagonal-line {
