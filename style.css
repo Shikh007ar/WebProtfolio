@@ -1043,6 +1043,11 @@ ul {
     margin: 0 auto;
 }
 
+.breifcase-icon {
+    display: flex;
+    justify-content: center;
+}
+
 .experience-container:focus {
     outline: none;
 }
