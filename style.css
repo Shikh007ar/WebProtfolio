@@ -1036,7 +1036,8 @@ ul {
 }
 
 .experience-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 20% 80%;
     position: relative;
     width: 85%;
     margin: 0 auto;
@@ -1048,7 +1049,6 @@ ul {
 
 
 .experience-card {
-    width: 80%;
     margin: 0 auto;
     border-radius: 8px;
     padding: 20px;
