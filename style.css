@@ -904,7 +904,8 @@ h2 {
 }
 
 .contactDiv23:hover,
-.contactDiv1:hover {
+.contactDiv1:hover,
+.company-icon-link:hover {
     text-decoration: none;
     font-size: 12.3px;
     color: #5eead4;
@@ -1092,6 +1093,10 @@ ul {
 .company-link {
     font-size: 18px;
     margin-left: 8px;
+}
+
+.company-icon-link {
+    color: #fff
 }
 
 .company-name {
