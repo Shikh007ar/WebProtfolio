@@ -1042,7 +1042,7 @@ ul {
 
 .experience-container {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 10% 90%;
     position: relative;
     width: 85%;
     margin: 0 auto;
@@ -1052,7 +1052,7 @@ ul {
     display: flex;
     position: relative;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 28px;
     justify-content: center;
 }
 
