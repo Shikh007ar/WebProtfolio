@@ -1030,6 +1030,18 @@ ul {
     position: relative;
 }
 
+.briefcase-icon {
+    position: absolute;
+    top: 0;
+}
+
+.experience-container {
+    display: flex;
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+}
+
 .experience-card {
     width: 80%;
     margin: 0 auto;
