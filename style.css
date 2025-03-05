@@ -1042,6 +1042,11 @@ ul {
     margin: 0 auto;
 }
 
+.experience-container:focus {
+    outline: none;
+}
+
+
 .experience-card {
     width: 80%;
     margin: 0 auto;
