@@ -88,44 +88,6 @@ html {
     letter-spacing: -3px;
 }
 
-.diagonal-line {
-    position: absolute;
-    border: 2px solid #5eead4;
-    transform-origin: 50% 50%;
-}
-
-.top-left {
-    width: 70%;
-    height: 0;
-    top: 15%;
-    left: 15%;
-    transform: rotate(-45deg);
-}
-
-.top-right {
-    width: 70%;
-    height: 0;
-    top: 15%;
-    right: 15%;
-    transform: rotate(45deg);
-}
-
-.bottom-left {
-    width: 70%;
-    height: 0;
-    bottom: 15%;
-    left: 15%;
-    transform: rotate(45deg);
-}
-
-.bottom-right {
-    width: 70%;
-    height: 0;
-    bottom: 15%;
-    right: 15%;
-    transform: rotate(-45deg);
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .logo-container-main {
@@ -136,10 +98,6 @@ html {
     .logo-text {
         font-size: 16px;
         letter-spacing: -2px;
-    }
-
-    .diagonal-line {
-        width: 60%;
     }
 }
 
