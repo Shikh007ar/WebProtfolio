@@ -1024,12 +1024,15 @@ ul {
 }
 
 .experience-card {
-    max-width: 600px;
+    width: 85%;
     margin: 0 auto;
-    background-color: #2c2c2c;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 1px #5eead4 !important;
+    color: white !important;
+    background-color: transparent !important;
+    opacity: 0.9 !important;
+    transition: all 0.5s ease 0s !important;
 }
 
 /* Header (Icon and Company Info) */
@@ -1077,13 +1080,13 @@ ul {
 }
 
 .tech {
-    background-color: #404040;
     padding: 4px 8px;
     border-radius: 4px;
     font-size: 12px;
     color: #ffffff;
     font-weight: 500;
     text-transform: uppercase;
+    border: 0.5px solid #5eead4 !important;
 }
 
 .description {
@@ -1150,11 +1153,6 @@ ul {
 }
 
 @media (min-width: 769px) {
-
-    /* Desktop-sized screens */
-    .experience-card {
-        padding: 25px;
-    }
 
     .company-name {
         font-size: 26px;
