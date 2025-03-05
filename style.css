@@ -1025,7 +1025,6 @@ ul {
 
 .vertical-line {
     width: 1px;
-    height: 400px;
     background-color: #252525;
     position: relative;
 }
@@ -1036,7 +1035,7 @@ ul {
     border-radius: 100px;
     z-index: 2;
     background: #5eead4;
-    padding: 7px;
+    padding: 10px;
     color: #020c1b;
     font-size: 12px;
 }
