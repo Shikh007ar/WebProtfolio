@@ -1039,23 +1039,6 @@ ul {
     position: relative;
 }
 
-.briefcase-icon {
-    width: 60px;
-    height: 60px;
-    background-color: #ffcc00;
-    border-radius: 50%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.briefcase {
-    width: 30px;
-    height: 30px;
-    fill: #fff;
-}
-
 .experience-card {
     width: 80%;
     margin: 0 auto;
