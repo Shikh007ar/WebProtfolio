@@ -1023,6 +1023,39 @@ ul {
     color: rgba(240, 248, 255, 0.623);
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100px;
+    align-items: center;
+    width: 20%;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 400px;
+    background-color: #252525;
+    position: relative;
+}
+
+.briefcase-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.briefcase {
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+}
+
 .experience-card {
     width: 85%;
     margin: 0 auto;
@@ -1046,13 +1079,6 @@ ul {
 
 .company-icon {
     flex-shrink: 0;
-}
-
-.briefcase-icon {
-    width: 24px;
-    height: 24px;
-    fill: #ffd700;
-    /* Yellow color for the briefcase icon */
 }
 
 .company-info {
