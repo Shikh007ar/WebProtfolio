@@ -1114,6 +1114,11 @@ ul {
     margin-top: 17px;
 }
 
+.description-point {
+    color: white;
+    margin-right: 4px;
+}
+
 .duration {
     font-size: 14px;
     color: #a0a0a0;
