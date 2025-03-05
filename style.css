@@ -1050,8 +1050,9 @@ ul {
 
 .breifcase-icon-container {
     display: flex;
-    margin-top: 10px;
     position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
     justify-content: center;
 }
 
@@ -1093,6 +1094,7 @@ ul {
     color: #ffffff;
     font-weight: 600;
     margin-bottom: 4px;
+    margin-top: 17px;
 }
 
 .duration {
@@ -1120,7 +1122,7 @@ ul {
 
 .description {
     font-size: 16px;
-    color: #b0b0b0;
+    color: rgba(240, 248, 255, 0.623);
     line-height: 1.5;
 }
 
