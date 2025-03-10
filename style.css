@@ -675,6 +675,11 @@ h2 {
     font-family: "Raleway", serif !important;
 }
 
+.certificate-desc {
+    word-break: break-all;
+}
+
+
 .resume .resume-item .resume-title {
     line-height: 18px;
     font-size: 0.9em;
